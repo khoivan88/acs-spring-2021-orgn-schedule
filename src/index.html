@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACS Spring 2021 - ORGN Division Presentations</title>
 
+    <link rel="stylesheet" href="/styles/index.css" />
     <style>
         .session {
             padding: 12px;
@@ -23,12 +24,13 @@
         }
     </style>
 </head>
-<body>
+<body class="min-h-screen bg-white prose lg:prose-lg xl:prose-xl max-w-none">
     <h1 style="text-align: center;">Schedule for ORGN (Organic Division) Presentations in ACS Spring 2021</h1>
 
     {%- assign dates = acs_s21_orgn | map: "date" | uniq | sort -%}
 
     {%- for date in dates -%}
+    <div class="max-w-screen-2xl mx-auto px-4 lg:px-0">
         <h2>{{ date | date: '%a, %b %d, %Y' }}</h2>
         {%- assign sessions_by_date = acs_s21_orgn | date_filter: date -%}
             {%- for session in sessions_by_date -%}
@@ -40,7 +42,7 @@
                         <p>Time: <span style="color: red;">{{ session.time }}</span></p>
                         {%- if session.presiders.size > 0 -%}<p>Presiders: {{ session.presiders | join: ", "}}</p>{%- endif -%}
                         <p>Zoom link (please sign in before clicking on the following link):
-                            <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
+                            <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer" style="color: blue;">Attend session</a>
                         </p>
                         <p>Track: {{ session.track }}</p>
                         {% if session.presentations.size > 0 %}
@@ -60,12 +62,18 @@
                                 <ol>
                                     {% for presentation in session.presentations %}
                                     <li>
-                                        <p style="font-weight: bold">{{ presentation.title }}</p>
-                                        {% if presentation.presenters.size > 0 %}<p>Presenter(s): {{ presentation.presenters | join: ", "}}</p>{% endif %}
-                                        <p>Time: {{ presentation.time }}</p>
-                                        <p>Zoom link (please sign in first):
-                                            <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend presentation</a>
-                                        </p>
+                                        <div class="flex flex-col lg:flex-row justify-between space-x-4">
+                                            <div class="w-full lg:w-3/4 bg-gray-100 px-4">
+                                                <p style="font-weight: bold">{{ presentation.title }}</p>
+                                                {% if presentation.presenters.size > 0 %}<p>Presenter(s): {{ presentation.presenters | join: ", "}}</p>{% endif %}
+                                            </div>
+                                            <div class="w-full lg:w-1/4">
+                                                <p><span class="sr-only">Time: </span>{{ presentation.time }}</p>
+                                                <p><span class="sr-only">Zoom link (please sign in first):</span>
+                                                    <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer" style="color: blue;">Attend presentation</a>
+                                                </p>
+                                            </div>
+                                        </div>
                                     </li>
                                     {% endfor %}
                                 </ol>
@@ -77,7 +85,9 @@
                 </div>
             {% endfor %}
         <hr>
+    </div>
     {%- endfor -%}
 
+    <!-- <script type="module" src="/scripts/index.js"></script> -->
 </body>
 </html>
