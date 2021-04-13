@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACS Spring 2021 - ORGN Division Presentations</title>
+
+    <style>
+        .session {
+            padding: 12px;
+        }
+
+        .presentations {
+            padding-left: 24px;
+        }
+        .presentations dt {
+            font-weight: bold;
+            list-style-type: circle;
+        }
+        .presentations dt::before {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+{% for session in acs-s21-orgn %}
+    <div class="session">
+        <h2>Session: {{ session.title }}</h2>
+        <details open>
+            <summary>Details:</summary>
+            <p>Time: <span style="color: red;">{{ session.time }}</span></p>
+            <p>Presiders: {{ session.presiders | join: ", "}}</p>
+            <p>Zoom link (please sign in before clicking on the following link):
+                <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
+            </p>
+            <p>Track: {{ session.track }}</p>
+            <div class="presentations">
+                <!-- <dl>
+                    {% for presentation in session.presentations %}
+                    <dt>{{ presentation.title }}</dt>
+                    <dd>Presenter(s): {{ presentation.presenters }}</dd>
+                    <dd>Time: {{ presentation.time }}</dd>
+                    <dd>Zoom link (please sign in first):
+                        <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
+                    </dd>
+                    {% endfor %}
+                </dl> -->
+                <details open>
+                    <summary>Presentations: </summary>
+                    <ol>
+                        {% for presentation in session.presentations %}
+                        <li>
+                            <p style="font-weight: bold">{{ presentation.title }}</p>
+                            {% if presentation.presenters.size > 0 %}<p>Presenter(s): {{ presentation.presenters | join: ", "}}</p>{% endif %}
+                            <p>Time: {{ presentation.time }}</p>
+                            <p>Zoom link (please sign in first):
+                                <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend presentation</a>
+                            </p>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                </details>
+
+            </div>
+        </details>
+    </div>
+{% endfor %}
+</body>
+</html>

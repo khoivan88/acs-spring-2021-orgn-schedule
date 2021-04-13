@@ -1,0 +1,15 @@
+{
+  "name": "acs-spring-2021-schedule-scraping",
+  "version": "1.0.0",
+  "description": "![Update Chemjobber Faculty Jobs List](https://github.com/khoivan88/chemjobber-faculty-jobs-list-automation/workflows/Update%20Chemjobber%20Faculty%20Jobs%20List/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

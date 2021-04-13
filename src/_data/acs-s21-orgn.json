@@ -1,0 +1,247 @@
+[
+{
+  "presentations": [
+    {
+      "title": "High throughput experimentation as a tool for catalyst discovery with earth abundant transition metals",
+      "time": "12:00pm- 12:30pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Professor Paul J. Chirik, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33176/attend"
+    },
+    {
+      "title": "Implementation of HTE approach to accelerate API synthesis",
+      "time": "12:30pm- 01:00pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Florian Medina, Presenter",
+        "Xavier Jusseau",
+        "Massimo Giannerini",
+        "Ed Cleator",
+        "William Maton",
+        "Qinghao Chen"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33186/attend"
+    },
+    {
+      "title": "Applications of HTE to the discovery and development of robust, scalable catalytic transformations for the synthesis of complex pharmaceutical intermediates",
+      "time": "01:00pm- 01:30pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Eric Simmons, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33191/attend"
+    },
+    {
+      "title": "Optimization of a mechanistically-complex Stille reaction for agrochemical SAR exploration",
+      "time": "01:30pm- 02:00pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Nessa Carson, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33196/attend"
+    },
+    {
+      "title": "High-throughput organopalladium chemistry: New tools and new reactions",
+      "time": "02:00pm- 02:30pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "David Leitch, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33201/attend"
+    },
+    {
+      "title": "Lessons learned and future opportunities for high-throughput experimentation and technology",
+      "time": "02:30pm- 03:00pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Melodie McCain Christensen, PhD Candidate, Presenter",
+        "Dr. Shane W. Krska",
+        "Eric Simmons",
+        "Matthew Tudge",
+        "Dr Simon Berritt"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33206/attend"
+    }
+  ],
+  "presiders": [
+    "Dr, Marion Emmert, Organizer, Presider",
+    "Matthieu Jouffroy, Organizer, Presider"
+  ],
+  "time": "12:00pm- 03:00pm USA / Canada - Eastern- April 13, 2021",
+  "title": "The Power of High Throughput Experimentation: Accelerated Synthetic Development and New Reaction Discovery:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/33171/attend"
+},
+{
+  "presentations": [
+    {
+      "title": "Introductory Remarks",
+      "time": "04:00pm- 04:05pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34811/attend"
+    },
+    {
+      "title": "SuFExable polymers with helical structures derived from thionyl tetrafluoride",
+      "time": "04:05pm- 04:25pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Suhua Li",
+        "Sidhu Pujari",
+        "Hafedh Driss",
+        "Dongdong Liang",
+        "Peng Wu",
+        "John Moses",
+        "Karl Sharpless",
+        "Han Zuilhof, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34816/attend"
+    },
+    {
+      "title": "Redox-switchable polymerization by chain-transfer (ReSPCT) of lactones, epoxides and carbon dioxide",
+      "time": "04:25pm- 04:40pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Matthew Thompson, Presenter",
+        "Jeffery Byers"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34821/attend"
+    },
+    {
+      "title": "Efficient and versatile CANAL polymerization to build microporous ladder polymers",
+      "time": "04:40pm- 05:00pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Holden Lai",
+        "Ashley Leibham",
+        "Yan Xia, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34826/attend"
+    },
+    {
+      "title": "Unconventional building blocks for precision polymer synthesis",
+      "time": "05:00pm- 05:30pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Rebekka Klausen, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34831/attend"
+    },
+    {
+      "title": "Intermission",
+      "time": "05:30pm- 05:40pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34836/attend"
+    },
+    {
+      "title": "Stereoselective cationic polymerization of vinyl ethers",
+      "time": "05:40pm- 06:10pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Frank Leibfarth, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34841/attend"
+    },
+    {
+      "title": "Withdrawn",
+      "time": "06:10pm- 06:25pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34846/attend"
+    },
+    {
+      "title": "Tuning the twist in amide monomers for halide-rebound polymerization",
+      "time": "06:25pm- 06:55pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Will Gutekunst, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34851/attend"
+    }
+  ],
+  "presiders": [
+    "Jessica Lamb, Organizer, Presider",
+    "Nathan Romero, Organizer"
+  ],
+  "time": "04:00pm- 06:55pm USA / Canada - Eastern- April 13, 2021",
+  "title": "Modern Methods in Polymer Chemistry:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/34806/attend"
+},
+{
+  "presentations": [
+    {
+      "title": "Redesigning tethered ruthenium initiators for cyclic polymer synthesis",
+      "time": "08:00pm- 08:20pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Matthew R. Golder, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34861/attend"
+    },
+    {
+      "title": "Programming the reactivity of multifunctional polymer brushes for chemical warfare agent responsive materials",
+      "time": "08:20pm- 08:35pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Benjamin McDonald, Presenter",
+        "Qilin He",
+        "Melinda Jue",
+        "Sei Jin Park",
+        "Steven Buchsbaum",
+        "Francesco Fornasiero",
+        "Timothy Swager"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34866/attend"
+    },
+    {
+      "title": "Journeying from catalysts used for redox-switchable polymerization reactions to catalysts used for cross coupling reactions",
+      "time": "08:35pm- 09:05pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Jeff Byers, Presenter",
+        "Ashley Biernesser",
+        "Kayla Delle Chiaie",
+        "Miao Qi",
+        "Matthew Thompson",
+        "Michael Crockett",
+        "Chet Tyrol",
+        "Alexander Wong"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34871/attend"
+    },
+    {
+      "title": "Intermission",
+      "time": "09:05pm- 09:15pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34876/attend"
+    },
+    {
+      "title": "Sulfur(VI) fluoride exchange click reaction as a tool to synthesize previously inaccessible polymers",
+      "time": "09:15pm- 09:35pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Quentin Michaudel, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34881/attend"
+    },
+    {
+      "title": "Organoborane strategy for polymers bearing lactone, ester, and alcohol functionality",
+      "time": "09:35pm- 09:50pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "yuyang Ji, Presenter",
+        "Rebekka Klausen"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34886/attend"
+    },
+    {
+      "title": "C-H Functionalization: A viable route to organic materials",
+      "time": "09:50pm- 10:20pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [
+        "Colleen Scott, Presenter",
+        "Chathuranga Rathnamalala, Rathnamalalairu",
+        "Feng Daijun"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34891/attend"
+    },
+    {
+      "title": "Concluding Remarks",
+      "time": "10:20pm- 10:25pm USA / Canada - Eastern- April 13, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34896/attend"
+    }
+  ],
+  "presiders": [
+    "Jessica Lamb, Organizer",
+    "Nathan Romero, Organizer, Presider"
+  ],
+  "time": "08:00pm- 10:25pm USA / Canada - Eastern- April 13, 2021",
+  "title": "Modern Methods in Polymer Chemistry:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/34856/attend"
+}
+]
