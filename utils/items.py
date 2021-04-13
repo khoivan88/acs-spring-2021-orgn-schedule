@@ -18,6 +18,7 @@ class JobItem(Item):
     comments1 = Field()
 
 class SessionItem(Item):
+    date = Field()
     track = Field()
     title = Field()
     time = Field()

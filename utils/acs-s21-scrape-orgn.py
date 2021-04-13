@@ -1,6 +1,7 @@
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path, PurePath
+from urllib.parse import urlparse, parse_qs
 
 import scrapy
 # useful for handling different item types with a single interface
@@ -26,56 +27,6 @@ FIELDS_TO_EXPORT = ['ads_title', 'posted_date', 'priority_date', 'category',
                     ]
 
 
-class CsvWriteLatestToOldest:
-    """Write to CSV file in latest to oldest order of 'posted_date'"""
-    def __init__(self, csv_export_file):
-        self.csv_export_file = csv_export_file
-
-    @classmethod
-    def from_crawler(cls, crawler):
-        """This is used to passed in parameter from setting
-        Ref: https://docs.scrapy.org/en/latest/topics/item-pipeline.html?highlight=from_crawler#write-items-to-mongodb
-        """
-
-        return cls(
-            csv_export_file=crawler.settings.get('CSV_EXPORT_FILE', THIS_SPIDER_RESULT_FILE),
-        )
-
-    def open_spider(self, spider):
-        self.list_items = []
-        self.file = open(self.csv_export_file, 'ab')
-
-        # Creating a FanItemExporter object and initiating export
-        self.exporter = CsvItemExporter(self.file, fields_to_export=FIELDS_TO_EXPORT)
-        self.exporter.start_exporting()
-
-    def close_spider(self, spider):
-        ordered_list = sorted(self.list_items,
-                              key=lambda i: i['posted_date'],
-                              reverse=True)
-
-        for i in ordered_list:
-            item = {key: i.get(key) or '' for key in FIELDS_TO_EXPORT}
-            self.exporter.export_item(item)
-
-        # Ending the export to file
-        self.exporter.finish_exporting()
-        self.file.close()
-
-    def process_item(self, item, spider):
-        self.list_items.append(item)
-        return item
-
-
-class RemoveIgnoredKeywordsPipeline:
-    """ Remove jobs ads with 'ads_title' containing one of the words in the IGNORED_KEYWORDS """
-    def process_item(self, item, spider):
-        adapter = ItemAdapter(item)
-        for keyword in JOB_TITLE_IGNORE_KEYWORDS:
-            if re.search(keyword, adapter['ads_title'], re.IGNORECASE):
-                raise DropItem(f"'Postdoc' item found: {item!r}")
-        return item
-
 
 class DeDuplicatesPipeline:
     """ Remove duplication based on the ID of each ads for the specific jobs board """
@@ -93,13 +44,18 @@ class DeDuplicatesPipeline:
 
 
 class ACSS21Orgn(scrapy.Spider):
+    dates = ['2021-04-13', '2021-04-14', '2021-04-15', '2021-04-16']
     name = 'asc-s21-orgn'
     allowed_domains = ['acs.digitellinc.com']
-    start_urls = ['https://acs.digitellinc.com/acs/live/8/page/18/1?timezone=America%2FNew_York&eventSearchInput=&eventSearchDate=2021-04-13&eventSearchTrack=171&eventSearchTag=0']
+    start_urls = [f'https://acs.digitellinc.com/acs/live/8/page/18/1?timezone=America%2FNew_York&eventSearchInput=&eventSearchDate={date}&eventSearchTrack=171&eventSearchTag=0'
+                  for date in dates]
     base_url = 'https://acs.digitellinc.com/'
     # handle_httpstatus_list = [301, 302]
 
+
     def parse(self, response):
+        date = parse_qs(urlparse(response.url).query)['eventSearchDate'][0]
+        # breakpoint()
         track = '[ORGN] Division of Organic Chemistry'
         # Get all the jobs listing
         # sessions = response.css('.panel.panel-default.panel-session')
@@ -147,6 +103,7 @@ class ACSS21Orgn(scrapy.Spider):
                 # breakpoint()
 
             cb_kwargs = {
+                'date': date,
                 'title': title,
                 # 'department': department,
                 'time': time,
@@ -163,12 +120,17 @@ class ACSS21Orgn(scrapy.Spider):
             #                      callback=self.parse_ads)
 
         # # Find next page url if exists:
-        # next_page_partial_url = response.xpath('//*[not(contains(@class, "paginator__items"))][contains(@class, "paginator__item")][.//*[contains(@rel, "next")]]//a/@href').get()
-        # # print(f'{next_page_partial_url=}')
-        # if next_page_partial_url:
-        #     next_page_url = response.urljoin(next_page_partial_url)
+        # # next_page_partial_url = response.xpath('//*[not(contains(@class, "paginator__items"))][contains(@class, "paginator__item")][.//*[contains(@rel, "next")]]//a/@href').get()
+        # # # print(f'{next_page_partial_url=}')
+        # # # if next_page_partial_url:
+        # current_date = datetime.strptime(this.date, '%Y-%m-%d')
+        # next_date = current_date + timedelta(days=1)
+        # end_date = datetime.strptime('2021-04-16', '%Y-%m-%d')
+        # if next_date <= end_date:
+        #     # next_page_url = response.urljoin(next_page_partial_url)
         #     # print(f'{next_page_url=}')
-        #     yield scrapy.Request(url=next_page_url, callback=self.parse)
+        #     this.date = next_date.strftime('%Y-%m-%d')
+        #     yield scrapy.Request(url=start_url[0], callback=self.parse)
 
     def parse_ads(self, response, **cb_kwargs):
         # Get the text

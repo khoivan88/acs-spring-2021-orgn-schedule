@@ -26,8 +26,10 @@
 <body>
     <h1 style="text-align: center;">Schedule for ORGN (Organic Division) Presentations in ACS Spring 2021</h1>
 
+    {% assign dates = acs-s21-orgn | map: "date" | uniq %}
     {% for session in acs-s21-orgn %}
         <div class="session">
+            <p>{{ session.date | date: '%a, %b %d, %Y' }}</p>
             <h2>Session: {{ session.title }}</h2>
             <details open>
                 <summary>Details:</summary>
@@ -37,6 +39,7 @@
                     <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
                 </p>
                 <p>Track: {{ session.track }}</p>
+                {% if session.presentations.size > 0 %}
                 <div class="presentations">
                     <!-- <dl>
                         {% for presentation in session.presentations %}
@@ -65,6 +68,7 @@
                     </details>
 
                 </div>
+                {%- endif -%}
             </details>
         </div>
     {% endfor %}
