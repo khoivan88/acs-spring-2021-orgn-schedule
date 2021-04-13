@@ -1,4 +1,5 @@
 venv*
+_site
 
 *credentials.json
 cj-automation*.json
