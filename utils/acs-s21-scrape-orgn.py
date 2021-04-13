@@ -4,8 +4,7 @@ from pathlib import Path, PurePath
 from urllib.parse import urlparse, parse_qs
 
 import scrapy
-# useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
+
 from scrapy.crawler import CrawlerProcess
 from scrapy.exceptions import DropItem
 from scrapy.exporters import CsvItemExporter
