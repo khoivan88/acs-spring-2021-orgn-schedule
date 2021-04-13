@@ -26,51 +26,58 @@
 <body>
     <h1 style="text-align: center;">Schedule for ORGN (Organic Division) Presentations in ACS Spring 2021</h1>
 
-    {% assign dates = acs-s21-orgn | map: "date" | uniq %}
-    {% for session in acs-s21-orgn %}
-        <div class="session">
-            <p>{{ session.date | date: '%a, %b %d, %Y' }}</p>
-            <h2>Session: {{ session.title }}</h2>
-            <details open>
-                <summary>Details:</summary>
-                <p>Time: <span style="color: red;">{{ session.time }}</span></p>
-                <p>Presiders: {{ session.presiders | join: ", "}}</p>
-                <p>Zoom link (please sign in before clicking on the following link):
-                    <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
-                </p>
-                <p>Track: {{ session.track }}</p>
-                {% if session.presentations.size > 0 %}
-                <div class="presentations">
-                    <!-- <dl>
-                        {% for presentation in session.presentations %}
-                        <dt>{{ presentation.title }}</dt>
-                        <dd>Presenter(s): {{ presentation.presenters }}</dd>
-                        <dd>Time: {{ presentation.time }}</dd>
-                        <dd>Zoom link (please sign in first):
-                            <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
-                        </dd>
-                        {% endfor %}
-                    </dl> -->
-                    <details open>
-                        <summary>Presentations: </summary>
-                        <ol>
-                            {% for presentation in session.presentations %}
-                            <li>
-                                <p style="font-weight: bold">{{ presentation.title }}</p>
-                                {% if presentation.presenters.size > 0 %}<p>Presenter(s): {{ presentation.presenters | join: ", "}}</p>{% endif %}
-                                <p>Time: {{ presentation.time }}</p>
-                                <p>Zoom link (please sign in first):
-                                    <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend presentation</a>
-                                </p>
-                            </li>
-                            {% endfor %}
-                        </ol>
-                    </details>
+    {%- assign dates = acs_s21_orgn | map: "date" | uniq | sort -%}
 
+    {%- for date in dates -%}
+        <h2>{{ date | date: '%a, %b %d, %Y' }}</h2>
+        {%- assign sessions_by_date = acs_s21_orgn | date_filter: date -%}
+            {%- for session in sessions_by_date -%}
+                <div class="session">
+                    <!-- <p>{{ session.date | date: '%a, %b %d, %Y' }}</p> -->
+                    <h3>Session: {{ session.title }}</h3>
+                    <details open>
+                        <summary>Details:</summary>
+                        <p>Time: <span style="color: red;">{{ session.time }}</span></p>
+                        {%- if session.presiders.size > 0 -%}<p>Presiders: {{ session.presiders | join: ", "}}</p>{%- endif -%}
+                        <p>Zoom link (please sign in before clicking on the following link):
+                            <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
+                        </p>
+                        <p>Track: {{ session.track }}</p>
+                        {% if session.presentations.size > 0 %}
+                        <div class="presentations">
+                            <!-- <dl>
+                                {% for presentation in session.presentations %}
+                                <dt>{{ presentation.title }}</dt>
+                                <dd>Presenter(s): {{ presentation.presenters }}</dd>
+                                <dd>Time: {{ presentation.time }}</dd>
+                                <dd>Zoom link (please sign in first):
+                                    <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
+                                </dd>
+                                {% endfor %}
+                            </dl> -->
+                            <details open>
+                                <summary>Presentations: </summary>
+                                <ol>
+                                    {% for presentation in session.presentations %}
+                                    <li>
+                                        <p style="font-weight: bold">{{ presentation.title }}</p>
+                                        {% if presentation.presenters.size > 0 %}<p>Presenter(s): {{ presentation.presenters | join: ", "}}</p>{% endif %}
+                                        <p>Time: {{ presentation.time }}</p>
+                                        <p>Zoom link (please sign in first):
+                                            <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend presentation</a>
+                                        </p>
+                                    </li>
+                                    {% endfor %}
+                                </ol>
+                            </details>
+
+                        </div>
+                        {%- endif -%}
+                    </details>
                 </div>
-                {%- endif -%}
-            </details>
-        </div>
-    {% endfor %}
+            {% endfor %}
+        <hr>
+    {%- endfor -%}
+
 </body>
 </html>
