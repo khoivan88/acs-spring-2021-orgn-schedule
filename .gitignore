@@ -13,3 +13,4 @@ scrapy_spider
 spider_example.py
 
 read_google_sheet.py
+node_modules
