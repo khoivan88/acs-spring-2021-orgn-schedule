@@ -3,45 +3,6 @@
   "date": "2021-04-13T00:00:00-0500",
   "presentations": [
     {
-      "title": "High-throughput organopalladium chemistry: New tools and new reactions",
-      "time": "02:00pm- 02:30pm USA / Canada - Eastern- April 13, 2021",
-      "presenters": [
-        "Dr. David Leitch, Presenter"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33201/attend"
-    },
-    {
-      "title": "Lessons learned and future opportunities for high-throughput experimentation and technology",
-      "time": "02:30pm- 03:00pm USA / Canada - Eastern- April 13, 2021",
-      "presenters": [
-        "Melodie McCain Christensen, PhD Candidate, Presenter",
-        "Dr. Shane W. Krska",
-        "Eric Simmons",
-        "Matthew Tudge",
-        "Dr Simon Berritt"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33206/attend"
-    }
-  ],
-  "presiders": [
-    "Dr, Marion Emmert, Organizer, Presider",
-    "Matthieu Jouffroy, Organizer, Presider"
-  ],
-  "time": "12:00pm- 03:00pm USA / Canada - Eastern- April 13, 2021",
-  "title": "The Power of High Throughput Experimentation: Accelerated Synthetic Development and New Reaction Discovery:",
-  "track": "[ORGN] Division of Organic Chemistry",
-  "zoom_link": "https://acs.digitellinc.com/acs/events/33171/attend"
-},
-{
-  "date": "2021-04-13T00:00:00-0500",
-  "presentations": [
-    {
-      "title": "Introductory Remarks",
-      "time": "04:00pm- 04:05pm USA / Canada - Eastern- April 13, 2021",
-      "presenters": [],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34811/attend"
-    },
-    {
       "title": "SuFExable polymers with helical structures derived from thionyl tetrafluoride",
       "time": "04:05pm- 04:25pm USA / Canada - Eastern- April 13, 2021",
       "presenters": [
@@ -391,6 +352,92 @@
   "zoom_link": "https://acs.digitellinc.com/acs/events/33576/attend"
 },
 {
+  "date": "2021-04-15T00:00:00-0500",
+  "presentations": [
+    {
+      "title": "Some progress on organic transformations under organic solvent-free conditions",
+      "time": "12:00pm- 12:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Meifeng Wang",
+        "Liyin Zhang",
+        "Gan Zhu",
+        "Hui Li",
+        "Yiqun Li",
+        "Liuqun Gu, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33666/attend"
+    },
+    {
+      "title": "Expanding extraction: Bisulfite removal of aldehydes and new kinetic frontiers using miscible cosolvents",
+      "time": "12:20pm- 12:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Cheyenne Brindle, Presenter",
+        "Hanna Vescovi",
+        "Claire Grigglestone",
+        "Maria Boucher",
+        "Maxwell Furigay",
+        "William Patterson",
+        "Wilfried Nganyak-Tentchou"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33671/attend"
+    },
+    {
+      "title": "Withdrawn",
+      "time": "12:40pm- 01:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33676/attend"
+    },
+    {
+      "title": "Metal free photocatalytic thiol-ene/thiol-yne reactions",
+      "time": "01:00pm- 01:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Sarbjeet  Kaur, Presenter",
+        "Ting Wang"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33681/attend"
+    },
+    {
+      "title": "Greener synthesis of pterostilbene derivatives as drug candidates for the treatment of Alzheimer's",
+      "time": "01:20pm- 01:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Victor You, Presenter",
+        "Krishna Bhat"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33686/attend"
+    },
+    {
+      "title": "Continuous flow antisolvent crystallization of pharmaceuticals using enhanced nucleation features",
+      "time": "01:40pm- 02:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Kyle Nordquist, Presenter",
+        "Jierui Sha",
+        "Alpana Thorat",
+        "Gerard Capellades",
+        "Allan Myerson",
+        "Kevin Schaab",
+        "Andrew Bond"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33691/attend"
+    },
+    {
+      "title": "Minimal equipment, maximum versatility - the automated, radial synthesis of small molecules",
+      "time": "02:00pm- 02:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Kerry Gilmore, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33696/attend"
+    }
+  ],
+  "presiders": [
+    "Steven Silverman, Organizer",
+    "Andrew Bond, Presider"
+  ],
+  "time": "12:00pm- 02:20pm USA / Canada - Eastern- April 15, 2021",
+  "title": "Green Methods & Syntheses:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/33661/attend"
+},
+{
   "date": "2021-04-14T00:00:00-0500",
   "presentations": [
     {
@@ -492,6 +539,203 @@
   "title": "CH Activation:",
   "track": "[ORGN] Division of Organic Chemistry",
   "zoom_link": "https://acs.digitellinc.com/acs/events/33616/attend"
+},
+{
+  "date": "2021-04-15T00:00:00-0500",
+  "presentations": [
+    {
+      "title": "Silver nanodot FRET pair reveals water nanocage size",
+      "time": "12:00pm- 12:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Junhua Yu, Presenter",
+        "Sungmoon Choi"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33936/attend"
+    },
+    {
+      "title": "Withdrawn",
+      "time": "12:20pm- 12:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33941/attend"
+    },
+    {
+      "title": "Investigating acid-catalyzed reactivity using self-assembled coordination cages",
+      "time": "12:40pm- 01:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Courtney Ngai, Presenter",
+        "Colomba Sanchez Marsetti",
+        "William Harman",
+        "Richard Hooley"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33946/attend"
+    },
+    {
+      "title": "Counter-ion and functional group effects on the molecular recognition of pyrophosphate in aqueous media by resorcinarene salt receptors.",
+      "time": "01:00pm- 01:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Kwaku Twum, Presenter",
+        "Seyed Iraj Sadraei",
+        "S. Maryamdokht Taimoory",
+        "Jordan Feder",
+        "Nicholas Schileru",
+        "John Trant",
+        "Ngong Beyeh"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33951/attend"
+    },
+    {
+      "title": "Artificial nanoparticle acetal hydrolase for selective tandem reaction from mixtures",
+      "time": "01:20pm- 01:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Ishani Bose, Presenter",
+        "Yan Zhao"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33956/attend"
+    },
+    {
+      "title": "Nonplanar porphyrins as switchable receptors for selective encapsulation of analytes",
+      "time": "01:40pm- 02:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Karolis Norvaisa, Presenter",
+        "Mathias Senge"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33961/attend"
+    },
+    {
+      "title": "Growth inhibition of clathrate hydrates by supramolecular inhibitors",
+      "time": "02:00pm- 02:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Ran Drori, Presenter",
+        "Haim Weissman",
+        "Boris Rybtchinski"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33966/attend"
+    },
+    {
+      "title": "Increased chemical shift resolution of enantiomers with a thioamide-based chiral solvating agent",
+      "time": "02:20pm- 02:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Emily Crull, Presenter",
+        "Matthew Donahue"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33971/attend"
+    },
+    {
+      "title": "Assembly of porous molecular crystals through chalcogen bonding interactions",
+      "time": "02:40pm- 03:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Brian Eckstein, Presenter",
+        "Loren Brown",
+        "Bruce Noll",
+        "Gary Balaich",
+        "C. Michael McGuirk"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33976/attend"
+    }
+  ],
+  "presiders": [
+    "Steven Silverman, Organizer",
+    "Courtney Ngai, Presider"
+  ],
+  "time": "12:00pm- 03:00pm USA / Canada - Eastern- April 15, 2021",
+  "title": "Molecular Recognition & Self-Assembly:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/33931/attend"
+},
+{
+  "date": "2021-04-16T00:00:00-0500",
+  "presentations": [
+    {
+      "title": "Photocatalysis for enamide and enol ether oxyalkynylation and alcohol deoxyalkynylation",
+      "time": "12:00pm- 12:20pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [
+        "Stephanie Amos, Presenter",
+        "Diana Cavalli",
+        "Franck Le Vaillant",
+        "Stefano Nicolai",
+        "Jerome Waser"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34091/attend"
+    },
+    {
+      "title": "Withdrawn",
+      "time": "12:20pm- 12:40pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34101/attend"
+    },
+    {
+      "title": "Redox-neutral photocatalytic C−H carboxylation of arenes and styrenes with CO2",
+      "time": "12:40pm- 01:00pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [
+        "Thomas Svejstrup, Presenter",
+        "Matthias Schmalzbauer",
+        "Florian Fricke",
+        "Peter Brandt",
+        "Magnus Johansson",
+        "Giulia Bergonzini",
+        "Burkhard Koenig"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34096/attend"
+    },
+    {
+      "title": "Opening a can of glow-worms: Tandem photoredox catalysis of [Ir(ppy)2(dtb-bpy)]+",
+      "time": "01:00pm- 01:20pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [
+        "Dr Timothy Connell, Presenter",
+        "Catherine Fraser",
+        "Milena Czyz",
+        "Daniel Gomez",
+        "Anastasios Polyzos",
+        "Paul Francis"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34106/attend"
+    },
+    {
+      "title": "Withdrawn",
+      "time": "01:20pm- 01:40pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34111/attend"
+    },
+    {
+      "title": "Heteroleptic copper-based complexes for photocatalysis",
+      "time": "01:40pm- 02:00pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [
+        "Shawn Collins, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34116/attend"
+    },
+    {
+      "title": "Visible-light-mediated carbonyl alkylative amination to all-alkyl α-tertiary amino acid derivatives",
+      "time": "02:00pm- 02:20pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [
+        "Mr John H. Blackwell, Presenter",
+        "Matthew Gaunt",
+        "Roopender Kumar"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34121/attend"
+    },
+    {
+      "title": "Ni/photoredox-catalyzed enantioselective cross-electrophile coupling of styrenyl oxides",
+      "time": "02:20pm- 02:40pm USA / Canada - Eastern- April 16, 2021",
+      "presenters": [
+        "SiiHong Lau, Presenter",
+        "Meredith Borden",
+        "Lucy Wang",
+        "Talia Steiman",
+        "Marvin Parasram",
+        "Abigail Doyle"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34126/attend"
+    }
+  ],
+  "presiders": [
+    "Steven Silverman, Organizer",
+    "Stephanie Amos, Presider"
+  ],
+  "time": "12:00pm- 02:40pm USA / Canada - Eastern- April 16, 2021",
+  "title": "Photoredox Chemistry:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/34086/attend"
 },
 {
   "date": "2021-04-14T00:00:00-0500",
@@ -603,194 +847,6 @@
   "date": "2021-04-15T00:00:00-0500",
   "presentations": [
     {
-      "title": "Some progress on organic transformations under organic solvent-free conditions",
-      "time": "12:00pm- 12:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Meifeng Wang",
-        "Liyin Zhang",
-        "Gan Zhu",
-        "Hui Li",
-        "Yiqun Li",
-        "Liuqun Gu, Presenter"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33666/attend"
-    },
-    {
-      "title": "Expanding extraction: Bisulfite removal of aldehydes and new kinetic frontiers using miscible cosolvents",
-      "time": "12:20pm- 12:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Cheyenne Brindle, Presenter",
-        "Hanna Vescovi",
-        "Claire Grigglestone",
-        "Maria Boucher",
-        "Maxwell Furigay",
-        "William Patterson",
-        "Wilfried Nganyak-Tentchou"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33671/attend"
-    },
-    {
-      "title": "Withdrawn",
-      "time": "12:40pm- 01:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33676/attend"
-    },
-    {
-      "title": "Metal free photocatalytic thiol-ene/thiol-yne reactions",
-      "time": "01:00pm- 01:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Sarbjeet  Kaur, Presenter",
-        "Ting Wang"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33681/attend"
-    },
-    {
-      "title": "Greener synthesis of pterostilbene derivatives as drug candidates for the treatment of Alzheimer's",
-      "time": "01:20pm- 01:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Victor You, Presenter",
-        "Krishna Bhat"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33686/attend"
-    },
-    {
-      "title": "Continuous flow antisolvent crystallization of pharmaceuticals using enhanced nucleation features",
-      "time": "01:40pm- 02:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Kyle Nordquist, Presenter",
-        "Jierui Sha",
-        "Alpana Thorat",
-        "Gerard Capellades",
-        "Allan Myerson",
-        "Kevin Schaab",
-        "Andrew Bond"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33691/attend"
-    },
-    {
-      "title": "Minimal equipment, maximum versatility - the automated, radial synthesis of small molecules",
-      "time": "02:00pm- 02:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Kerry Gilmore, Presenter"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33696/attend"
-    }
-  ],
-  "presiders": [
-    "Steven Silverman, Organizer",
-    "Andrew Bond, Presider"
-  ],
-  "time": "12:00pm- 02:20pm USA / Canada - Eastern- April 15, 2021",
-  "title": "Green Methods & Syntheses:",
-  "track": "[ORGN] Division of Organic Chemistry",
-  "zoom_link": "https://acs.digitellinc.com/acs/events/33661/attend"
-},
-{
-  "date": "2021-04-15T00:00:00-0500",
-  "presentations": [
-    {
-      "title": "Silver nanodot FRET pair reveals water nanocage size",
-      "time": "12:00pm- 12:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Junhua Yu, Presenter",
-        "Sungmoon Choi"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33936/attend"
-    },
-    {
-      "title": "Withdrawn",
-      "time": "12:20pm- 12:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33941/attend"
-    },
-    {
-      "title": "Investigating acid-catalyzed reactivity using self-assembled coordination cages",
-      "time": "12:40pm- 01:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Courtney Ngai, Presenter",
-        "Colomba Sanchez Marsetti",
-        "William Harman",
-        "Richard Hooley"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33946/attend"
-    },
-    {
-      "title": "Counter-ion and functional group effects on the molecular recognition of pyrophosphate in aqueous media by resorcinarene salt receptors.",
-      "time": "01:00pm- 01:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Kwaku Twum, Presenter",
-        "Seyed Iraj Sadraei",
-        "S. Maryamdokht Taimoory",
-        "Jordan Feder",
-        "Nicholas Schileru",
-        "John Trant",
-        "Ngong Beyeh"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33951/attend"
-    },
-    {
-      "title": "Artificial nanoparticle acetal hydrolase for selective tandem reaction from mixtures",
-      "time": "01:20pm- 01:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Ishani Bose, Presenter",
-        "Yan Zhao"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33956/attend"
-    },
-    {
-      "title": "Nonplanar porphyrins as switchable receptors for selective encapsulation of analytes",
-      "time": "01:40pm- 02:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Karolis Norvaisa, Presenter",
-        "Mathias Senge"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33961/attend"
-    },
-    {
-      "title": "Growth inhibition of clathrate hydrates by supramolecular inhibitors",
-      "time": "02:00pm- 02:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Ran Drori, Presenter",
-        "Haim Weissman",
-        "Boris Rybtchinski"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33966/attend"
-    },
-    {
-      "title": "Increased chemical shift resolution of enantiomers with a thioamide-based chiral solvating agent",
-      "time": "02:20pm- 02:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Emily Crull, Presenter",
-        "Matthew Donahue"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33971/attend"
-    },
-    {
-      "title": "Assembly of porous molecular crystals through chalcogen bonding interactions",
-      "time": "02:40pm- 03:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Brian Eckstein, Presenter",
-        "Loren Brown",
-        "Bruce Noll",
-        "Gary Balaich",
-        "C. Michael McGuirk"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33976/attend"
-    }
-  ],
-  "presiders": [
-    "Steven Silverman, Organizer",
-    "Courtney Ngai, Presider"
-  ],
-  "time": "12:00pm- 03:00pm USA / Canada - Eastern- April 15, 2021",
-  "title": "Molecular Recognition & Self-Assembly:",
-  "track": "[ORGN] Division of Organic Chemistry",
-  "zoom_link": "https://acs.digitellinc.com/acs/events/33931/attend"
-},
-{
-  "date": "2021-04-15T00:00:00-0500",
-  "presentations": [
-    {
       "title": "Nickel-catalyzed domino reactions of alkynyl piperidines",
       "time": "12:00pm- 12:20pm USA / Canada - Eastern- April 15, 2021",
       "presenters": [
@@ -887,286 +943,6 @@
   "title": "New Reactions & Methodology:",
   "track": "[ORGN] Division of Organic Chemistry",
   "zoom_link": "https://acs.digitellinc.com/acs/events/34171/attend"
-},
-{
-  "date": "2021-04-15T00:00:00-0500",
-  "presentations": [
-    {
-      "title": "Quantitative chiroptical sensing of free amino acids, biothiols, amines, and amino alcohols with an aryl fluoride probe",
-      "time": "04:00pm- 04:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "ARCHITA SRIPADA, Master of Science, Presenter",
-        "Fathima Yushra Thanzeel"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33711/attend"
-    },
-    {
-      "title": "Selective metal-free and Pd-catalyzed aerobic acyldealkylation of tertiary amines",
-      "time": "04:20pm- 04:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Diandra Soemardi, Presenter",
-        "Andrei Vedernikov"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33716/attend"
-    },
-    {
-      "title": "Hydrodechlorination of aryl chlorides in biological media at neutral pH, ambient temperature and pressure",
-      "time": "04:40pm- 05:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Erica Schultz, Presenter",
-        "Samantha Stubbs",
-        "Mohammed AbuBakar",
-        "Rhyan Shanker"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33721/attend"
-    },
-    {
-      "title": "DESs are sustainable precursors for organic transformations",
-      "time": "05:00pm- 05:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Dr. Hitendra  M. Patel, Professor, Presenter"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33726/attend"
-    },
-    {
-      "title": "Synthesis of light-harvesting metalloporphyrin and selective oxidation of organic substrates",
-      "time": "05:20pm- 05:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Christian Alcantar, Presenter",
-        "Rui Zhang",
-        "Fox Bratcher",
-        "Jonathan Malone"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33731/attend"
-    },
-    {
-      "title": "Chemosynthetic livers: Predict, prepare and prove the structure, activity and toxicity of drug metabolites",
-      "time": "05:40pm- 06:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Mukund Chorghade, Presenter"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33736/attend"
-    },
-    {
-      "title": "Cost-efficient and environmentally friendly 17O/18O labeling of fatty acids using mechanochemistry",
-      "time": "06:00pm- 06:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Jessica Špačková, Presenter",
-        "Charlyn Fabra",
-        "Sebastien Mittelette",
-        "Emeline Gaillard",
-        "Chia-Hsin Chen",
-        "Thomas-Xavier Métro",
-        "Danielle Laurencin"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33741/attend"
-    }
-  ],
-  "presiders": [
-    "Steven Silverman, Organizer",
-    "Cheyenne Brindle, Presider"
-  ],
-  "time": "04:00pm- 06:20pm USA / Canada - Eastern- April 15, 2021",
-  "title": "Green Methods & Syntheses:",
-  "track": "[ORGN] Division of Organic Chemistry",
-  "zoom_link": "https://acs.digitellinc.com/acs/events/33701/attend"
-},
-{
-  "date": "2021-04-16T00:00:00-0500",
-  "presentations": [
-    {
-      "title": "Photocatalysis for enamide and enol ether oxyalkynylation and alcohol deoxyalkynylation",
-      "time": "12:00pm- 12:20pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [
-        "Stephanie Amos, Presenter",
-        "Diana Cavalli",
-        "Franck Le Vaillant",
-        "Stefano Nicolai",
-        "Jerome Waser"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34091/attend"
-    },
-    {
-      "title": "Withdrawn",
-      "time": "12:20pm- 12:40pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34101/attend"
-    },
-    {
-      "title": "Redox-neutral photocatalytic C−H carboxylation of arenes and styrenes with CO2",
-      "time": "12:40pm- 01:00pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [
-        "Thomas Svejstrup, Presenter",
-        "Matthias Schmalzbauer",
-        "Florian Fricke",
-        "Peter Brandt",
-        "Magnus Johansson",
-        "Giulia Bergonzini",
-        "Burkhard Koenig"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34096/attend"
-    },
-    {
-      "title": "Opening a can of glow-worms: Tandem photoredox catalysis of [Ir(ppy)2(dtb-bpy)]+",
-      "time": "01:00pm- 01:20pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [
-        "Dr Timothy Connell, Presenter",
-        "Catherine Fraser",
-        "Milena Czyz",
-        "Daniel Gomez",
-        "Anastasios Polyzos",
-        "Paul Francis"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34106/attend"
-    },
-    {
-      "title": "Withdrawn",
-      "time": "01:20pm- 01:40pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34111/attend"
-    },
-    {
-      "title": "Heteroleptic copper-based complexes for photocatalysis",
-      "time": "01:40pm- 02:00pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [
-        "Shawn Collins, Presenter"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34116/attend"
-    },
-    {
-      "title": "Visible-light-mediated carbonyl alkylative amination to all-alkyl α-tertiary amino acid derivatives",
-      "time": "02:00pm- 02:20pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [
-        "Mr John H. Blackwell, Presenter",
-        "Matthew Gaunt",
-        "Roopender Kumar"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34121/attend"
-    },
-    {
-      "title": "Ni/photoredox-catalyzed enantioselective cross-electrophile coupling of styrenyl oxides",
-      "time": "02:20pm- 02:40pm USA / Canada - Eastern- April 16, 2021",
-      "presenters": [
-        "SiiHong Lau, Presenter",
-        "Meredith Borden",
-        "Lucy Wang",
-        "Talia Steiman",
-        "Marvin Parasram",
-        "Abigail Doyle"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34126/attend"
-    }
-  ],
-  "presiders": [
-    "Steven Silverman, Organizer",
-    "Stephanie Amos, Presider"
-  ],
-  "time": "12:00pm- 02:40pm USA / Canada - Eastern- April 16, 2021",
-  "title": "Photoredox Chemistry:",
-  "track": "[ORGN] Division of Organic Chemistry",
-  "zoom_link": "https://acs.digitellinc.com/acs/events/34086/attend"
-},
-{
-  "date": "2021-04-15T00:00:00-0500",
-  "presentations": [
-    {
-      "title": "Direct monitoring of bicarbonate transport by fluorescence spectroscopy",
-      "time": "04:00pm- 04:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Hennie Valkenier, Presenter",
-        "Luis Martínez-Crespo",
-        "Stephen Butler"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33986/attend"
-    },
-    {
-      "title": "Dynamic boronate-ester mediated G-quadruplex hydrogel for pH responsive drug delivery applications",
-      "time": "04:20pm- 04:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Mr. TAPAS GHOSH, Ph.D. Scholar, Presenter",
-        "Apurba Das"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33991/attend"
-    },
-    {
-      "title": "A group of world class halogen-bond donors: A structural and theoretical analysis of “triply activated” 3-iodo-1-phenylprop-2-yn-1-ones with exceptional σ-hole potentials",
-      "time": "04:40pm- 05:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Vinu Panikkattu, Presenter",
-        "Christer Aakeroy",
-        "Abhijeet Sinha",
-        "Boris Averkiev",
-        "Victor Day"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/33996/attend"
-    },
-    {
-      "title": "Exploring 1,3,4-chalcogenadiazoles as versatile synthons for pharmaceutical co-crystallization",
-      "time": "05:00pm- 05:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Viraj De Silva, Presenter",
-        "Boris Averkiev",
-        "Christer Aakeroy"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34001/attend"
-    },
-    {
-      "title": "Self-assembly of diboronic esters with u-shaped bipyridines: ‘plug-in-socket’ assemblies",
-      "time": "05:20pm- 05:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Christopher Hartwick, Presenter",
-        "Shweta Yelgaonkar",
-        "Eric Reinheimer",
-        "Gonzalo Campillo-Alvarado",
-        "Len MacGillivray"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34006/attend"
-    },
-    {
-      "title": "Semiconducting host-guest complexes based on cycloparaphenylenes and polycyclic aromatic hydrocarbons stabilized by CH-π interactions.",
-      "time": "05:40pm- 06:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Hyejin Kwon, Presenter",
-        "Carson Bruns"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34011/attend"
-    },
-    {
-      "title": "Self-folding cavitands of enhanced dimensions and flexibility",
-      "time": "06:00pm- 06:20pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Agusti Lledo Ponsati, Presenter",
-        "Rubén Álvarez-Yebra",
-        "Ricard López-Coll",
-        "David Lozano",
-        "Ferran Feixas"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34021/attend"
-    },
-    {
-      "title": "Controlling reactions in crystals: Metal-organic assemblies and salt cocrystals",
-      "time": "06:20pm- 06:40pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [
-        "Changan Li, Presenter",
-        "Len MacGillivray"
-      ],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34026/attend"
-    },
-    {
-      "title": "Withdrawn",
-      "time": "06:40pm- 07:00pm USA / Canada - Eastern- April 15, 2021",
-      "presenters": [],
-      "zoom_link": "https://acs.digitellinc.com/acs/events/34031/attend"
-    }
-  ],
-  "presiders": [
-    "Steven Silverman, Organizer, Presider",
-    "Dr. Dominic A. Sirianni, Presider"
-  ],
-  "time": "04:00pm- 07:00pm USA / Canada - Eastern- April 15, 2021",
-  "title": "Molecular Recognition & Self-Assembly:",
-  "track": "[ORGN] Division of Organic Chemistry",
-  "zoom_link": "https://acs.digitellinc.com/acs/events/33981/attend"
 },
 {
   "date": "2021-04-16T00:00:00-0500",
@@ -1273,6 +1049,89 @@
   "zoom_link": "https://acs.digitellinc.com/acs/events/34661/attend"
 },
 {
+  "date": "2021-04-15T00:00:00-0500",
+  "presentations": [
+    {
+      "title": "Quantitative chiroptical sensing of free amino acids, biothiols, amines, and amino alcohols with an aryl fluoride probe",
+      "time": "04:00pm- 04:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "ARCHITA SRIPADA, Master of Science, Presenter",
+        "Fathima Yushra Thanzeel"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33711/attend"
+    },
+    {
+      "title": "Selective metal-free and Pd-catalyzed aerobic acyldealkylation of tertiary amines",
+      "time": "04:20pm- 04:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Diandra Soemardi, Presenter",
+        "Andrei Vedernikov"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33716/attend"
+    },
+    {
+      "title": "Hydrodechlorination of aryl chlorides in biological media at neutral pH, ambient temperature and pressure",
+      "time": "04:40pm- 05:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Erica Schultz, Presenter",
+        "Samantha Stubbs",
+        "Mohammed AbuBakar",
+        "Rhyan Shanker"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33721/attend"
+    },
+    {
+      "title": "DESs are sustainable precursors for organic transformations",
+      "time": "05:00pm- 05:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Dr. Hitendra  M. Patel, Professor, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33726/attend"
+    },
+    {
+      "title": "Synthesis of light-harvesting metalloporphyrin and selective oxidation of organic substrates",
+      "time": "05:20pm- 05:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Christian Alcantar, Presenter",
+        "Rui Zhang",
+        "Fox Bratcher",
+        "Jonathan Malone"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33731/attend"
+    },
+    {
+      "title": "Chemosynthetic livers: Predict, prepare and prove the structure, activity and toxicity of drug metabolites",
+      "time": "05:40pm- 06:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Mukund Chorghade, Presenter"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33736/attend"
+    },
+    {
+      "title": "Cost-efficient and environmentally friendly 17O/18O labeling of fatty acids using mechanochemistry",
+      "time": "06:00pm- 06:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Jessica Špačková, Presenter",
+        "Charlyn Fabra",
+        "Sebastien Mittelette",
+        "Emeline Gaillard",
+        "Chia-Hsin Chen",
+        "Thomas-Xavier Métro",
+        "Danielle Laurencin"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33741/attend"
+    }
+  ],
+  "presiders": [
+    "Steven Silverman, Organizer",
+    "Cheyenne Brindle, Presider"
+  ],
+  "time": "04:00pm- 06:20pm USA / Canada - Eastern- April 15, 2021",
+  "title": "Green Methods & Syntheses:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/33701/attend"
+},
+{
   "date": "2021-04-16T00:00:00-0500",
   "presentations": [
     {
@@ -1339,6 +1198,108 @@
   "title": "Cross Coupling Reactions:",
   "track": "[ORGN] Division of Organic Chemistry",
   "zoom_link": "https://acs.digitellinc.com/acs/events/34731/attend"
+},
+{
+  "date": "2021-04-15T00:00:00-0500",
+  "presentations": [
+    {
+      "title": "Direct monitoring of bicarbonate transport by fluorescence spectroscopy",
+      "time": "04:00pm- 04:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Hennie Valkenier, Presenter",
+        "Luis Martínez-Crespo",
+        "Stephen Butler"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33986/attend"
+    },
+    {
+      "title": "Dynamic boronate-ester mediated G-quadruplex hydrogel for pH responsive drug delivery applications",
+      "time": "04:20pm- 04:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Mr. TAPAS GHOSH, Ph.D. Scholar, Presenter",
+        "Apurba Das"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33991/attend"
+    },
+    {
+      "title": "A group of world class halogen-bond donors: A structural and theoretical analysis of “triply activated” 3-iodo-1-phenylprop-2-yn-1-ones with exceptional σ-hole potentials",
+      "time": "04:40pm- 05:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Vinu Panikkattu, Presenter",
+        "Christer Aakeroy",
+        "Abhijeet Sinha",
+        "Boris Averkiev",
+        "Victor Day"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/33996/attend"
+    },
+    {
+      "title": "Exploring 1,3,4-chalcogenadiazoles as versatile synthons for pharmaceutical co-crystallization",
+      "time": "05:00pm- 05:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Viraj De Silva, Presenter",
+        "Boris Averkiev",
+        "Christer Aakeroy"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34001/attend"
+    },
+    {
+      "title": "Self-assembly of diboronic esters with u-shaped bipyridines: ‘plug-in-socket’ assemblies",
+      "time": "05:20pm- 05:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Christopher Hartwick, Presenter",
+        "Shweta Yelgaonkar",
+        "Eric Reinheimer",
+        "Gonzalo Campillo-Alvarado",
+        "Len MacGillivray"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34006/attend"
+    },
+    {
+      "title": "Semiconducting host-guest complexes based on cycloparaphenylenes and polycyclic aromatic hydrocarbons stabilized by CH-π interactions.",
+      "time": "05:40pm- 06:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Hyejin Kwon, Presenter",
+        "Carson Bruns"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34011/attend"
+    },
+    {
+      "title": "Self-folding cavitands of enhanced dimensions and flexibility",
+      "time": "06:00pm- 06:20pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Agusti Lledo Ponsati, Presenter",
+        "Rubén Álvarez-Yebra",
+        "Ricard López-Coll",
+        "David Lozano",
+        "Ferran Feixas"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34021/attend"
+    },
+    {
+      "title": "Controlling reactions in crystals: Metal-organic assemblies and salt cocrystals",
+      "time": "06:20pm- 06:40pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [
+        "Changan Li, Presenter",
+        "Len MacGillivray"
+      ],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34026/attend"
+    },
+    {
+      "title": "Withdrawn",
+      "time": "06:40pm- 07:00pm USA / Canada - Eastern- April 15, 2021",
+      "presenters": [],
+      "zoom_link": "https://acs.digitellinc.com/acs/events/34031/attend"
+    }
+  ],
+  "presiders": [
+    "Steven Silverman, Organizer, Presider",
+    "Dr. Dominic A. Sirianni, Presider"
+  ],
+  "time": "04:00pm- 07:00pm USA / Canada - Eastern- April 15, 2021",
+  "title": "Molecular Recognition & Self-Assembly:",
+  "track": "[ORGN] Division of Organic Chemistry",
+  "zoom_link": "https://acs.digitellinc.com/acs/events/33981/attend"
 },
 {
   "date": "2021-04-16T00:00:00-0500",
