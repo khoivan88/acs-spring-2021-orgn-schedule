@@ -1,7 +1,7 @@
 module.exports = {
   mount: {
     '_site': { url: '/', static: true, resolve: false },
-    // 'src/scripts': { url: '/scripts' },
+    'src/scripts': { url: '/scripts' },
     'src/styles': { url: '/styles' },
   },
   plugins: [
@@ -11,6 +11,14 @@ module.exports = {
       {
         cmd: 'eleventy',
         watch: '$1 --watch',
+      },
+    ],
+    [
+      '@snowpack/plugin-optimize',
+      {
+        // minifyJS: false,
+        // preloadModules: true,
+        // target: ['es2020', 'safari12'],
       },
     ],
   ],
@@ -25,9 +33,9 @@ module.exports = {
   devOptions: {
     open: 'none',
   },
-  optimize: {
-    bundle: true,
-    minify: true,
-    target: 'es2020',
-  },
+  // optimize: {
+  //   bundle: true,
+  //   minify: true,
+  //   target: 'es2020',
+  // },
 };
