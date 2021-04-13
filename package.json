@@ -7,7 +7,8 @@
     "serve": "serve --no-clipboard --listen 8080 dist",
     "dev": "run-s clean dev:*",
     "dev:snowpack": "snowpack dev",
-    "build": "run-s clean build:*",
+    "prebuild": "npm run clean && npx eleventy",
+    "build": "run-s build:*",
     "build:snowpack": "snowpack build"
   },
   "keywords": [],
