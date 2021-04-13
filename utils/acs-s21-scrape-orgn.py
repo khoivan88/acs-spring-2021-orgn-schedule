@@ -14,22 +14,7 @@ from items import SessionItem, PresentationItem
 CURRENT_FILEPATH = Path(__file__).resolve().parent
 DATA_FOLDER = CURRENT_FILEPATH.parent / 'src' / '_data'
 DATA_FOLDER.mkdir(exist_ok=True)
-THIS_SPIDER_RESULT_FILE = DATA_FOLDER / 'acs-s21-orgn.json'
-
-
-class DeDuplicatesPipeline:
-    """ Remove duplication based on the ID of each ads for the specific jobs board """
-
-    def __init__(self):
-        self.ids_seen = set()
-
-    def process_item(self, item, spider):
-        adapter = ItemAdapter(item)
-        if adapter.get('ads_job_code'):
-            if adapter['ads_job_code'] in self.ids_seen:
-                raise DropItem(f"Duplicate item found: {item!r}")
-            self.ids_seen.add(adapter['ads_job_code'])
-        return item
+THIS_SPIDER_RESULT_FILE = DATA_FOLDER / 'acs_s21_orgn.json'
 
 
 class ACSS21Orgn(scrapy.Spider):
@@ -44,6 +29,7 @@ class ACSS21Orgn(scrapy.Spider):
 
     def parse(self, response):
         date = parse_qs(urlparse(response.url).query)['eventSearchDate'][0]
+        date += 'T00:00:00-0500'
         # breakpoint()
         track = '[ORGN] Division of Organic Chemistry'
         # Get all the jobs listing
