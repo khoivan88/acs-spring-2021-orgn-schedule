@@ -8,7 +8,7 @@ layout: 'layouts/base.html'
         activeClasses: 'border-l border-t border-r rounded-t text-blue-700',
         inactiveClasses: 'text-gray-500 hover:text-blue-800'
     }" class="p-6">
-    <ul class="flex border-b overflow-x-auto h-auto overflow-y-hidden">
+    <ul class="flex justify-center border-b overflow-x-auto h-auto overflow-y-hidden md:text-lg lg:text-xl">
         {%- for date in dates -%}
         <li class="-mb-px mr-1"
             @click="openTab = {{ date | slice: 0, 10 | slug }}"
