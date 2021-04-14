@@ -3,6 +3,8 @@ layout: 'layouts/base.html'
 ---
 {%- assign dates = acs_s21_orgn | map: "date" | uniq | sort -%}
 
+<!-- Ref for Tabs with AlpineJS: https://codepen.io/davidgrzyb/pen/dyYORJd -->
+
 <div x-data="{
         openTab: {{ dates | first | slice: 0, 10 | slug }},
         activeClasses: 'border-l border-t border-r rounded-t text-blue-700',
@@ -71,7 +73,5 @@ layout: 'layouts/base.html'
             {% endfor %}
         </div>
         {%- endfor -%}
-        <div x-show="openTab === 2">Tab #2</div>
-        <div x-show="openTab === 3">Tab #3</div>
     </div>
 </div>
