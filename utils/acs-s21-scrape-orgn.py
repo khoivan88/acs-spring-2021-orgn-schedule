@@ -18,7 +18,8 @@ THIS_SPIDER_RESULT_FILE = DATA_FOLDER / 'acs_s21_orgn.json'
 
 
 class ACSS21Orgn(scrapy.Spider):
-    dates = ['2021-04-13', '2021-04-14', '2021-04-15', '2021-04-16']
+    dates = ['2021-04-14', '2021-04-15', '2021-04-16'
+             ]
     name = 'asc-s21-orgn'
     allowed_domains = ['acs.digitellinc.com']
     start_urls = [f'https://acs.digitellinc.com/acs/live/8/page/18/1?timezone=America%2FNew_York&eventSearchInput=&eventSearchDate={date}&eventSearchTrack=171&eventSearchTag=0'
@@ -89,18 +90,14 @@ class ACSS21Orgn(scrapy.Spider):
             }
             yield SessionItem(cb_kwargs)
 
-        # # Find next page url if exists:
-        # # next_page_partial_url = response.xpath('//*[not(contains(@class, "paginator__items"))][contains(@class, "paginator__item")][.//*[contains(@rel, "next")]]//a/@href').get()
-        # # # print(f'{next_page_partial_url=}')
-        # # # if next_page_partial_url:
-        # current_date = datetime.strptime(this.date, '%Y-%m-%d')
-        # next_date = current_date + timedelta(days=1)
-        # end_date = datetime.strptime('2021-04-16', '%Y-%m-%d')
-        # if next_date <= end_date:
-        #     # next_page_url = response.urljoin(next_page_partial_url)
-        #     # print(f'{next_page_url=}')
-        #     this.date = next_date.strftime('%Y-%m-%d')
-        #     yield scrapy.Request(url=start_url[0], callback=self.parse)
+        # Find next page url if exists:
+        next_page_url = response.css('.pagination.pagination-sm.pull-right')[0].css('li:nth-last-of-type(2) a').xpath('@href').get()
+        # # print(f'{next_page_partial_url=}')
+        if next_page_url:
+            # next_page_url = response.urljoin(next_page_partial_url)
+            # print(f'{next_page_url=}')
+            # breakpoint()
+            yield scrapy.Request(url=next_page_url, callback=self.parse)
 
 
 if __name__ == '__main__':
