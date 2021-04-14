@@ -6,16 +6,16 @@ layout: 'layouts/base.html'
 <!-- Ref for Tabs with AlpineJS: https://codepen.io/davidgrzyb/pen/dyYORJd -->
 
 <div x-data="{
-        openTab: {{ dates | first | slice: 0, 10 | slug }},
+        openTab: window.location.hash ? window.location.hash.substring(1) : '{{ dates | first | slice: 0, 10 | slug }}',
         activeClasses: 'border-l border-t border-r rounded-t text-blue-700',
         inactiveClasses: 'text-gray-500 hover:text-blue-800'
     }" class="p-6">
     <ul class="flex justify-center border-b overflow-x-auto h-auto overflow-y-hidden md:text-lg lg:text-xl">
         {%- for date in dates -%}
         <li class="-mb-px mr-1"
-            @click="openTab = {{ date | slice: 0, 10 | slug }}"
-            :class="{ '-mb-px': openTab === {{ date | slice: 0, 10 | slug }} }">
-            <a :class="openTab === {{ date | slice: 0, 10 | slug }} ? activeClasses : inactiveClasses" class="bg-white inline-block py-2 px-4 font-semibold"
+            @click="openTab = '{{ date | slice: 0, 10 | slug }}'"
+            :class="{ '-mb-px': openTab === '{{ date | slice: 0, 10 | slug }}' }">
+            <a :class="openTab === '{{ date | slice: 0, 10 | slug }}' ? activeClasses : inactiveClasses" class="bg-white inline-block py-2 px-4 font-semibold"
                 href="#{{ date | slice: 0, 10 | slug }}">
                 {{ date | date: '%a, %b %d, %Y' }}
             </a>
@@ -24,8 +24,8 @@ layout: 'layouts/base.html'
     </ul>
     <div class="w-full pt-4 prose lg:prose-lg xl:prose-xl max-w-none">
         {%- for date in dates -%}
-        <div  class="max-w-screen-2xl mx-auto px-4 lg:px-0"
-            x-show="openTab === {{ date | slice: 0, 10 | slug }}">
+        <div class="max-w-screen-2xl mx-auto px-4 lg:px-0"
+            x-show="openTab === '{{ date | slice: 0, 10 | slug }}'">
             {%- assign sessions_by_date = acs_s21_orgn | date_filter: date -%}
             {%- for session in sessions_by_date -%}
             <div class="session">
