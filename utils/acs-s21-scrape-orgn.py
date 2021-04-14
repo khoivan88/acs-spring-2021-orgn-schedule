@@ -33,14 +33,9 @@ class ACSS21Orgn(scrapy.Spider):
         date += 'T00:00:00-0500'
         # breakpoint()
         track = '[ORGN] Division of Organic Chemistry'
-        # Get all the jobs listing
+        # Get all the sessions listing
         # sessions = response.css('.panel.panel-default.panel-session')
         sessions = response.xpath('//div[@id="event-content"]/div[contains(@class, "panel") and contains(@class, "panel-default") and contains(@class, "panel-session")]')
-
-        # # Pick only those ads that has green badge of 'new' on the top right corner:
-        # # For 'C&E News' magazine, 'new' is for job posted in the past 2 days:
-        # # Use C&E News own 'filter' of ads posted in the past 2 days (have green badge say 'New' in the top left corner of each ads listing)
-        # jobs = response.xpath('//*[contains(@class, "lister__item")][.//*[contains(@class, "badge--green")]]//*[contains(@class, "lister__details")]')
 
         for session in sessions:
             session_id = session.css('.panel-heading').xpath('@id').get()
@@ -70,7 +65,6 @@ class ACSS21Orgn(scrapy.Spider):
                 presenters = [t for t in (s.strip() for s in presenters_info) if t and t != '|']
                 presentation_kwargs = {
                     'title': presentation_title,
-                    # 'department': department,
                     'time': presentation_time,
                     'presenters': presenters,
                     'zoom_link': presentation_zoom_link,
@@ -81,7 +75,6 @@ class ACSS21Orgn(scrapy.Spider):
             cb_kwargs = {
                 'date': date,
                 'title': title,
-                # 'department': department,
                 'time': time,
                 'presiders': presiders,
                 'presentations': presentations,
@@ -101,12 +94,9 @@ class ACSS21Orgn(scrapy.Spider):
 
 
 if __name__ == '__main__':
-    # # Remove the result file if exists
-    # THIS_SPIDER_RESULT_FILE.unlink(missing_ok=True)
 
     settings = {
         'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36',
-        # 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36',
         # 'HTTPCACHE_ENABLED': True,
         # 'DEFAULT_REQUEST_HEADERS': {
         #   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -115,8 +105,6 @@ if __name__ == '__main__':
         # 'CSV_EXPORT_FILE': THIS_SPIDER_RESULT_FILE,
         # 'ITEM_PIPELINES': {
             # '__main__.RemoveIgnoredKeywordsPipeline': 100,
-            # '__main__.DeDuplicatesPipeline': 800,
-            # '__main__.CsvWriteLatestToOldest': 900,
             # },
         'FEEDS': {
             Path(THIS_SPIDER_RESULT_FILE): {
