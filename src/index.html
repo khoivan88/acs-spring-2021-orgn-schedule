@@ -1,42 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACS Spring 2021 - ORGN Division Presentations</title>
+---
+layout: 'layouts/base.html'
+---
+<h1 class="font-serif text-bold text-xl md:text-2xl lg:text-4xl xl:text-6xl uppercase my-6" style="text-align: center;">Schedule for ORGN (Organic Division) Presentations in ACS Spring 2021</h1>
+<div class=" prose lg:prose-lg xl:prose-xl max-w-none">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XJDJBGR1L"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-4XJDJBGR1L');
-    </script>
-    
-    <link rel="stylesheet" href="/styles/index.css" />
-    <style>
-        .session {
-            padding: 12px;
-        }
-
-        .presentations {
-            padding-left: 24px;
-        }
-        .presentations dt {
-            font-weight: bold;
-            list-style-type: circle;
-        }
-        .presentations dt::before {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body class="min-h-screen bg-white prose lg:prose-lg xl:prose-xl max-w-none">
-    <h1 style="text-align: center;">Schedule for ORGN (Organic Division) Presentations in ACS Spring 2021</h1>
-
+    <!-- <button @click="open = false">Close All Presentations Details</button> -->
     {%- assign dates = acs_s21_orgn | map: "date" | uniq | sort -%}
 
     {%- for date in dates -%}
@@ -56,17 +24,7 @@
                         </p>
                         <p>Track: {{ session.track }}</p>
                         {% if session.presentations.size > 0 %}
-                        <div class="presentations">
-                            <!-- <dl>
-                                {% for presentation in session.presentations %}
-                                <dt>{{ presentation.title }}</dt>
-                                <dd>Presenter(s): {{ presentation.presenters }}</dd>
-                                <dd>Time: {{ presentation.time }}</dd>
-                                <dd>Zoom link (please sign in first):
-                                    <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer">Attend session</a>
-                                </dd>
-                                {% endfor %}
-                            </dl> -->
+                        <div class="presentations" x-show="open">
                             <details open>
                                 <summary>Presentations: </summary>
                                 <ol>
@@ -97,7 +55,5 @@
         <hr>
     </div>
     {%- endfor -%}
+</div>
 
-    <!-- <script type="module" src="/scripts/index.js"></script> -->
-</body>
-</html>

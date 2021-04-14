@@ -1,0 +1,79 @@
+---
+layout: 'layouts/base.html'
+---
+<h1 class="font-serif text-bold text-xl md:text-2xl lg:text-4xl xl:text-6xl uppercase my-6" style="text-align: center;">Schedule for ORGN (Organic Division) Presentations in ACS Spring 2021</h1>
+
+{%- assign dates = acs_s21_orgn | map: "date" | uniq | sort -%}
+
+<div x-data="{
+        openTab: {{ dates | first | slice: 0, 10 | slug }},
+        activeClasses: 'border-l border-t border-r rounded-t text-blue-700',
+        inactiveClasses: 'text-gray-500 hover:text-blue-800'
+    }" class="p-6">
+    <ul class="flex border-b overflow-x-auto h-auto overflow-y-hidden">
+        {%- for date in dates -%}
+        <li class="-mb-px mr-1"
+            @click="openTab = {{ date | slice: 0, 10 | slug }}"
+            :class="{ '-mb-px': openTab === {{ date | slice: 0, 10 | slug }} }">
+            <a :class="openTab === {{ date | slice: 0, 10 | slug }} ? activeClasses : inactiveClasses" class="bg-white inline-block py-2 px-4 font-semibold"
+                href="#{{ date | slice: 0, 10 | slug }}">
+                {{ date | date: '%a, %b %d, %Y' }}
+            </a>
+        </li>
+        {%- endfor -%}
+    </ul>
+    <div class="w-full pt-4 prose lg:prose-lg xl:prose-xl max-w-none">
+        {%- for date in dates -%}
+        <div  class="max-w-screen-2xl mx-auto px-4 lg:px-0"
+            x-show="openTab === {{ date | slice: 0, 10 | slug }}">
+            {%- assign sessions_by_date = acs_s21_orgn | date_filter: date -%}
+            {%- for session in sessions_by_date -%}
+            <div class="session">
+                <!-- <p>{{ session.date | date: '%a, %b %d, %Y' }}</p> -->
+                <h3>Session: {{ session.title }}</h3>
+                <details open>
+                    <summary>Details:</summary>
+                    <p>Time: <span style="color: red;">{{ session.time }}</span></p>
+                    {%- if session.presiders.size > 0 -%}<p>Presiders: {{ session.presiders | join: ", "}}</p>{%- endif -%}
+                    <p>Zoom link (please sign in before clicking on the following link):
+                        <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer" style="color: blue;">Attend
+                            session</a>
+                    </p>
+                    <p>Track: {{ session.track }}</p>
+                    {% if session.presentations.size > 0 %}
+                    <div class="presentations" x-show="open">
+                        <details open>
+                            <summary>Presentations: </summary>
+                            <ol>
+                                {% for presentation in session.presentations %}
+                                <li>
+                                    <div class="flex flex-col lg:flex-row justify-between space-x-4">
+                                        <div class="w-full lg:w-3/4 bg-gray-100 px-4">
+                                            <p style="font-weight: bold">{{ presentation.title }}</p>
+                                            {% if presentation.presenters.size > 0 %}<p>Presenter(s): {{ presentation.presenters |
+                                                join: ", "}}</p>{% endif %}
+                                        </div>
+                                        <div class="w-full lg:w-1/4">
+                                            <p><span class="sr-only">Time: </span>{{ presentation.time }}</p>
+                                            <p><span class="sr-only">Zoom link (please sign in first):</span>
+                                                <a href="{{ session.zoom_link }}" target="_blank" rel="noopener noreferrer"
+                                                    style="color: blue;">Attend presentation</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ol>
+                        </details>
+
+                    </div>
+                    {%- endif -%}
+                </details>
+            </div>
+            {% endfor %}
+        </div>
+        {%- endfor -%}
+        <div x-show="openTab === 2">Tab #2</div>
+        <div x-show="openTab === 3">Tab #3</div>
+    </div>
+</div>

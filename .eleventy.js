@@ -1,4 +1,11 @@
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true,
+  });
+
+  // Static assets to pass through
+  eleventyConfig.addPassthroughCopy('./src/images');
+
   // Sort with `Array.sort`
   eleventyConfig.addFilter("date_ascending", function(data) {
     return data.sort(function(a, b) {

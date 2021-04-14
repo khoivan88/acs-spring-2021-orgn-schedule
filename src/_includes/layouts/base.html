@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACS Spring 2021 - ORGN Division Presentations</title>
+
+    <link rel="stylesheet" href="/styles/index.css" />
+    <style>
+        .session {
+            padding: 12px;
+        }
+
+        .presentations {
+            padding-left: 24px;
+        }
+
+        .presentations dt {
+            font-weight: bold;
+            list-style-type: circle;
+        }
+
+        .presentations dt::before {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+    {%- include './partials/nav.html' -%}
+
+    {{ content | safe }}
+
+    <script type="module" src="/scripts/index.js"></script>
+</body>
+</html>
